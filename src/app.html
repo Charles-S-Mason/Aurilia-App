@@ -1,0 +1,12 @@
+<template style="background-color:aqua">
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <div style="background-color:blue">
+    <button class="btn" style="background-color:rgb(247, 2, 2)" click.delegate="home()">Home</button>
+    <button class="btn" style="background-color:rgb(247, 2, 2)" click.delegate="aboutMEClick()">About Me </button>
+    <button class="btn" style="background-color:rgb(247, 2, 2)" click.delegate="contactUS()">CONTACT US!</button>
+  </div>
+  <br>
+  <br>
+  <router-view></router-view>
+  
+</template>
